@@ -1,0 +1,61 @@
+<ogr:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://ogr.maptools.org/" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://ogr.maptools.org/ ../gmlcities.xsd  http://www.opengis.net/gml http://schemas.opengis.net/gml/2.1.2/feature.xsd">
+  <gml:boundedBy>
+    <gml:Box>
+      <gml:coord>
+        <gml:X>0.0</gml:X>
+        <gml:Y>-90.0</gml:Y>
+      </gml:coord>
+      <gml:coord>
+        <gml:X>360.0</gml:X>
+        <gml:Y>90.0</gml:Y>
+      </gml:coord>
+    </gml:Box>
+  </gml:boundedBy>
+  <gml:featureMember>
+    <ogr:marsis_orbit_points>
+      <ogr:geometry>
+        <gml:Point srsName="urn:ogc:def:crs:IAU2000:49901">
+          <gml:coordinates>310.385602969,23.92752472</gml:coordinates>
+        </gml:Point>
+      </ogr:geometry>
+      <ogr:point_id>0</ogr:point_id>
+      <ogr:OperationMode/>
+      <ogr:ScetW>67233803</ogr:ScetW>
+      <ogr:ScetF>18609</ogr:ScetF>
+      <ogr:EphemT>172425872.703</ogr:EphemT>
+      <ogr:GeoEp>2005-06-19T04:03:28.518</ogr:GeoEp>
+      <ogr:SunLon>233.078955998</ogr:SunLon>
+      <ogr:SunDist>207510140.234</ogr:SunDist>
+      <ogr:Orbit>1830</ogr:Orbit>
+      <ogr:Target>TEST  </ogr:Target>
+      <ogr:TarScX>2217.16738332</ogr:TarScX>
+      <ogr:TarScY>-2606.48954279</ogr:TarScY>
+      <ogr:TarScZ>1520.04842008</ogr:TarScZ>
+      <ogr:ScAlt>351.476984586</ogr:ScAlt>
+      <ogr:ScELon>310.385602969</ogr:ScELon>
+      <ogr:ScLat>23.92752472</ogr:ScLat>
+      <ogr:TarScVX>-1.29854202745</ogr:TarScVX>
+      <ogr:TarScVY>1.57152485412</ogr:TarScVY>
+      <ogr:TarScVZ>3.69738674891</ogr:TarScVZ>
+      <ogr:TarScRadV>-0.361889459053</ogr:TarScRadV>
+      <ogr:TarScTanV>4.20661461922</ogr:TarScTanV>
+      <ogr:LocSunT>18.5344444444</ogr:LocSunT>
+      <ogr:SunZenith>105.014642936</ogr:SunZenith>
+      <ogr:DipX>0.707688240091</ogr:DipX>
+      <ogr:DipY>0.704277501797</ogr:DipY>
+      <ogr:DipZ>0.056307684192</ogr:DipZ>
+      <ogr:MonoX>-0.0145378049379</ogr:MonoX>
+      <ogr:MonoY>0.0941952314587</ogr:MonoY>
+      <ogr:MonoZ>-0.995447593095</ogr:MonoZ>
+      <ogr:f1>4000000.0</ogr:f1>
+      <ogr:f2>1800000.0</ogr:f2>
+      <ogr:SNR_f1_m1>18.68725178741053</ogr:SNR_f1_m1>
+      <ogr:SNR_f1__0>19.145262205888006</ogr:SNR_f1__0>
+      <ogr:SNR_f1_p1>20.25720966459831</ogr:SNR_f1_p1>
+      <ogr:SNR_f2_m1>18.626117345575377</ogr:SNR_f2_m1>
+      <ogr:SNR_f2__0>18.124864280475776</ogr:SNR_f2__0>
+      <ogr:SNR_f2_p1>20.37892891431452</ogr:SNR_f2_p1>
+
+    </ogr:marsis_orbit_points>
+  </gml:featureMember>
+</ogr:FeatureCollection>
