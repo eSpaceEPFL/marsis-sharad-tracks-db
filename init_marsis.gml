@@ -55,7 +55,8 @@
       <ogr:SNR_f2_m1>18.626117345575377</ogr:SNR_f2_m1>
       <ogr:SNR_f2__0>18.124864280475776</ogr:SNR_f2__0>
       <ogr:SNR_f2_p1>20.37892891431452</ogr:SNR_f2_p1>
-
+      <ogr:qi1>2</ogr:qi1>
+      <ogr:qi2>2</ogr:qi2>
     </ogr:marsis_orbit_points>
   </gml:featureMember>
 </ogr:FeatureCollection>
