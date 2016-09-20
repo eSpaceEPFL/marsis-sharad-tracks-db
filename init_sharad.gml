@@ -12,7 +12,7 @@
     </gml:Box>
   </gml:boundedBy>
   <gml:featureMember>
-    <ogr:sharad_orbit_points>
+    <ogr:orbit_point>
       <ogr:geometry>
         <gml:Point srsName="urn:ogc:def:crs:IAU2000:49901">
           <gml:coordinates>230.6768,64.2391</gml:coordinates>
@@ -29,6 +29,6 @@
       <ogr:sza> 89.98</ogr:sza>
       <ogr:phase> 0.339</ogr:phase>
       <ogr:Orbit>168901</ogr:Orbit>
-    </ogr:sharad_orbit_points>
+    </ogr:orbit_point>
   </gml:featureMember>
 </ogr:FeatureCollection>

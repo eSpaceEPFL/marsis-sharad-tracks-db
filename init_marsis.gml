@@ -12,7 +12,7 @@
     </gml:Box>
   </gml:boundedBy>
   <gml:featureMember>
-    <ogr:marsis_orbit_points>
+    <ogr:orbit_point>
       <ogr:geometry>
         <gml:Point srsName="urn:ogc:def:crs:IAU2000:49901">
           <gml:coordinates>310.385602969,23.92752472</gml:coordinates>
@@ -57,6 +57,6 @@
       <ogr:SNR_f2_p1>20.37892891431452</ogr:SNR_f2_p1>
       <ogr:qi1>2</ogr:qi1>
       <ogr:qi2>2</ogr:qi2>
-    </ogr:marsis_orbit_points>
+    </ogr:orbit_point>
   </gml:featureMember>
 </ogr:FeatureCollection>
