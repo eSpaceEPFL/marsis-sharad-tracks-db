@@ -12,6 +12,6 @@ tpref=$4
 
 for f in ${@: 5}
 do
-    ogr2ogr -a_srs mars2000.wkt -append -f PostgreSQL PG:"user=$admin password=$pwd dbname=$dbname" $f -nln $tpref_orbit_points
+    ogr2ogr -a_srs mars2000.wkt -append -f PostgreSQL PG:"user=$admin password=$pwd dbname=$dbname" $f -nln $tpref'_orbit_points'
 done
 
