@@ -1,7 +1,7 @@
 #!/bin/bash
 # $1 -> dbname
-# $2 -> admin
-# $3 -> pwd
+# $2 -> admin(radaradmin)
+# $3 -> pwd (radaruser)
 # $4 -> table prefix (use marsis or sharad)
 # $.. -> file list
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 # $1 -> dbname
-# $2 -> admin (marsis)
-# $3 -> user (marsisuser)
+# $2 -> admin (radaradmin)
+# $3 -> user (radaruser)
 # $4 -> init_gml_file (fake_snr.gml)
 # $5 -> table prefix (use marsis or sharad)
 
