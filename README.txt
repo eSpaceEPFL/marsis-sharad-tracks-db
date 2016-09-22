@@ -1,5 +1,5 @@
 /***************************************************************************
-This is a collection of script to populate a PostgreSQL + PostGIS DB
+This is a collection of scripts to populate a PostgreSQL + PostGIS DB
 of MARSIS and SHARAD tracks
 
                              -------------------
