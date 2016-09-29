@@ -13,7 +13,7 @@ PSQL_COMMAND="psql -U $admin -w -d $dbname -c "
 
 if [ $tpref == marsis ]
     then
-        select=" ogc_fid, ST_Shift_Longitude(wkb_geometry) as wkb_geometry, point_id, scetw, scetf, ephemt, geoep, sunlon, sundist, orbit, target, tarscx, tarscy, tarscz, scalt, scelon, sclat tarscvx, tarscvy, tarscvz, tarscradv, tarsctanv, locsunt, sunzenith, dipx, dipy, dipz, monox, monoy, monoz, f1, f2, snr_f1_m1, snr_f1__0, snr_f1_p1, snr_f2_m1, snr_f2__0, snr_f2_p1, qi1, qi2 "
+        select=" ogc_fid, ST_Shift_Longitude(wkb_geometry) as wkb_geometry, point_id, scetw, scetf, ephemt, geoep, sunlon, sundist, orbit, target, tarscx, tarscy, tarscz, scalt, scelon, sclat, tarscvx, tarscvy, tarscvz, tarscradv, tarsctanv, locsunt, sunzenith, dipx, dipy, dipz, monox, monoy, monoz, f1, f2, snr_f1_m1, snr_f1__0, snr_f1_p1, snr_f2_m1, snr_f2__0, snr_f2_p1, qi1, qi2 "
 fi
 
 if [ $tpref == sharad ]
